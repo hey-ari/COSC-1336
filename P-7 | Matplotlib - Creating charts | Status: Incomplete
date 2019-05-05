@@ -1,5 +1,8 @@
 ## Program 7 -- Written by Ariadna Ayala
+# Class assignment #7 -- Reference - No Textbook Reference
 
+# This program contains three different charts: Line Graph, Bar Graph, and Pie Chart. User enters numeric data for Pie chart.
+# Additional Notes: 
 # 1) The Line Graph shows the Cost of 2 years of attendance (60 credit hours) of most
 # popular colleges in Central Texas. The data was taken from ACC web-site.
 # 2) The Bar Chart shows displays average salary of software engineer depending on his/her
