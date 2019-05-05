@@ -1,9 +1,12 @@
 ## Program 8 -- Written by Ariadna Ayala
+# Class assignment #8 -- Reference - Chapter 9, Programming Exercise 1 "Course Information"
 
-# This program contains three dictionaries with data about given classes. User enters the course name and program outputs
+# This program contains three dictionaries with data about given classes. User enters the course name and program outputs 
 # the data associated with the course name.
+
 # === FUTURE MODIFICATIONS:
 # Add loop that pulls the data from all the dictionaries when user enters the Room number.
+
 # === CURRENT ISSUES:
 # The program stops runnung, displays an error message, and asks to restart itself when: invalid key entered,
 # 'quit' key entered, and any white space added within the key input, any white spaces outside of the key are being
