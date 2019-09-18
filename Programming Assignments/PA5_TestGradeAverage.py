@@ -1,5 +1,10 @@
-## Program #5 written by Ariadna Ayala
-
+##*************************************************************************
+##  Test Grage Average
+##  Programmer: Ariadna Ayala
+##  Status: Completed 
+##  The program collects user's input for three test scores as a numeric value 
+##  then calculates and displays the average grade in letter format (A, B, C, D, F).
+##*************************************************************************
 
 def main():
     score1=float(input('Enter your Test 1 score: '))    ## Collect test scores
