@@ -1,0 +1,32 @@
+## Program 8 -- Written by Ariadna Ayala
+
+# The program atops runnung, displays an error message, and asks to restart itself when: invalid key entered,
+# 'quit' key entered, and any white space added within the key input, any white spaces outside of the key are being
+# stripped by the program.
+
+def main():                                                                         # Main func. contains 3 dict w./ data
+    class_room = {'COSC1336':2019,'CS101':3001, 'CS102':4501,
+                'CS103':6755,'NT110':1244, 'CM241':1411}
+    class_prof = {'COSC1336':'Keefe','CS101':'Haynes','CS102':'Alvarado',
+                'CS103':'Rich','NT110':'Burke','CM241':'Lee'}
+    class_time = {'COSC1336':'10:00 AM','CS101':'8:00 AM','CS102':'9:00 AM',
+                'CS103':'10:00 AM', 'NT110':'11:00AM','CM241':'1:00 PM'}
+
+    def user_input():                                                               # User_input function processes user
+                                                                                    # input and displays the output
+
+        user = input('Enter your course number or a room number, type "quit" to exit: ').strip().upper()
+
+        try:                                                                        # Trying the input
+            while user != 'quit':
+                print('Here is the information you requested: \n',
+                      user, ', Room #', class_room[user], ', instructed by',
+                      class_prof[user], ', at', class_time[user], '.')
+                user = input('Enter your course number or a room number, type "quit" to exit: ').strip().upper()
+
+        except KeyError:                                                            # Catching the error and display the
+            print('Invalid course name entered. Restart the program to try again.') # error message
+            print('\n')
+            print('This program is written by Ariadna Ayala')
+    user_input()
+main()
