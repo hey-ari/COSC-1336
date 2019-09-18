@@ -1,16 +1,15 @@
-## Program 7 -- Written by Ariadna Ayala
-
-## NOTES:
-
-# This program is written in PyCharm but works as great in standard IDLE. :)
-# 1) The Line Graph shows the Cost of 2 years of attendance (60 credit hours) of most
-# popular colleges in Central Texas. The data was taken from ACC web-site.
-# 2) The Bar Chart shows displays average salary of software engineer depending on his/her
-# experience (Intern, Junior, Middle, and Senior).
-#
-# 3) The Pie chart only gives one chance to make a mistake in the format of the input. After 2nd mistake you will have
-# to start program over again.
-
+##*************************************************************************
+##  Charts using matplotlib.
+##  Programmer: Ariadna Ayala
+##  Status: Completed 
+##  The program displays three different charts: line chart, bar chart, and pie graph.
+##  1) The Line Graph shows the Cost of 2 years of attendance (60 credit hours) of most
+##     popular colleges in Central Texas. The data was taken from ACC web-site.
+##  2) The Bar Chart shows displays average salary of software engineer depending on his/her
+##     experience (Intern, Junior, Middle, and Senior).
+##  3) The Pie chart only gives one chance to make a mistake in the format of the input. After 2nd mistake you will have
+##     to start program over again.
+##*************************************************************************
 
 
 def main():                                                                 # Main function contains
