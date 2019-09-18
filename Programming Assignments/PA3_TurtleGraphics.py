@@ -1,7 +1,10 @@
-### Program 3 -- written by Ariadna Ayala.
+##*************************************************************************
+##  Turtle Graphics
+##  Programmer: Ariadna Ayala
+##  Status: Completed 
+##*************************************************************************
 
-
-## creating a pink diamond with red outline which has each side = 100.
+## Creating a pink diamond with red outline which has each side = 100.
 
 import turtle
 turtle.penup()
@@ -20,7 +23,7 @@ turtle.setheading(-315)
 turtle.forward(100)
 turtle.end_fill()
 
-## Here I'm moving to an empty space to create a new figure and resetting heading.
+## Moving to an empty space to create a new figure and resetting heading.
 
 turtle.setheading(0)
 turtle.penup()
