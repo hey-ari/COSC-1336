@@ -1,4 +1,11 @@
-## Program #6 -- Written by Ariadna Ayala
+##*************************************************************************
+##  File Import / Driving test results
+##  Programmer: Ariadna Ayala
+##  Status: Completed 
+##  This program uses a list of correct answers to the question to compare them
+##  to an external file and determine whether user passed the test.
+##*************************************************************************
+
 
 ## NOTES: 1) I used a new file import method shown in the previous class.
 ##        2) Having main function in the beginning of the code did not quite
