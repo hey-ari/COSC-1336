@@ -1,5 +1,8 @@
-## Program #4 --Distance Travelled-- Written by Ariadna Ayala
-
+##*************************************************************************
+##  Distance Travelled 
+##  Programmer: Ariadna Ayala
+##  Status: Completed 
+##*************************************************************************
 g = 'y'
 while g == 'Y' or g == 'y':
     mph = int(input('Enter speed: '))
