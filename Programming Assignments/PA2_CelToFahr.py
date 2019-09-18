@@ -3,7 +3,6 @@
 ##  Programmer: Ariadna Ayala
 ##  Status: Completed 
 ##*************************************************************************
-//  Account Balancing Program
 print ('Welcome to Temperature Converter 1.0!')
 #Getting the value from user, used variable temp_c for Celsius. 
 #Using float in case user inputs a number with a decimal place
