@@ -1,5 +1,9 @@
-## Program 2 -- Convert Celsium to Fahrenheit by Ariadna Ayala
-
+##*************************************************************************
+##  Temperature Converter
+##  Programmer: Ariadna Ayala
+##  Status: Completed 
+##*************************************************************************
+//  Account Balancing Program
 print ('Welcome to Temperature Converter 1.0!')
 #Getting the value from user, used variable temp_c for Celsius. 
 #Using float in case user inputs a number with a decimal place
@@ -16,4 +20,3 @@ print ('Thank you for using my program! Have a Good Day!')
 print (' ')
 print (' ')
 print ('This program is written by Ariadna Ayala')       
-
