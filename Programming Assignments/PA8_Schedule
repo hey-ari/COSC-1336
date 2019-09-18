@@ -1,8 +1,16 @@
-## Program 8 -- Written by Ariadna Ayala
+##*************************************************************************
+##  Classroom schedule.
+##  Programmer: Ariadna Ayala
+##  Status: Completed 
 
-# The program atops runnung, displays an error message, and asks to restart itself when: invalid key entered,
-# 'quit' key entered, and any white space added within the key input, any white spaces outside of the key are being
-# stripped by the program.
+##  This program takes user's input for a course or room number and displays the information 
+##  about the class using preassigned dictionary values.
+##  The program stops runnung, displays an error message, and asks to restart itself when:
+##  invalid key entered, 'quit' key entered, and any white space added within the key input;
+##  any white spaces outside of the key are being stripped by the program.
+##*************************************************************************
+
+
 
 def main():                                                                         # Main func. contains 3 dict w./ data
     class_room = {'COSC1336':2019,'CS101':3001, 'CS102':4501,
