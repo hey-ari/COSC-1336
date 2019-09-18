@@ -7,12 +7,6 @@
 ##*************************************************************************
 
 
-## NOTES: 1) I used a new file import method shown in the previous class.
-##        2) Having main function in the beginning of the code did not quite
-##           work for me in this case, displaying various function and
-##           value undifined errors.
-
-
 def correct_answers():
     correct_list = ['A','C','A','A','D','B','C','A',    ## A list of correct answers
                     'C','B','A','D','C','A','D','C',
