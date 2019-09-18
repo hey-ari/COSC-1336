@@ -2,6 +2,7 @@
 ##  Turtle Graphics
 ##  Programmer: Ariadna Ayala
 ##  Status: Completed 
+##  The program draws simple colored figures using turtle graphics feature.
 ##*************************************************************************
 
 ## Creating a pink diamond with red outline which has each side = 100.
